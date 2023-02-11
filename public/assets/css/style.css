@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&;600;700;800;700display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff;
+}
+
+nav {
+  /* position: fixed; */
+  padding: 20px;
+  width: 100%;
+  height: 80px;
+  background: #334063;
+  box-shadow: 0 0 10px #333;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0 0 30px;
+  font-size: 50px;
+  font-family: "Lobster Two", cursive;
+  transition: all 0.5s ease-in-out;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  font-size: 20px;
+  margin: 0 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul li a:hover {
+  color: rgb(218, 218, 218);
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+.carousel {
+  width: 100%;
+  height: 500px;
+  background-color: #cbcbcb;
+  overflow: hidden;
+  transition: all 2s ease-in-out;
+}
+
+.chevrons {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chevrons ion-icon {
+  font-size: 30px;
+  color: #334063;
+  cursor: pointer;
+  margin: 0 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.chevrons ion-icon:hover {
+  transform: scale(1.2);
+}
+
+.carousel .slides {
+  width: 100%;
+  display: flex;
+}
+
+.carousel .slides .image img {
+  width: 100vw;
+  height: 600px;
+  transition: margin-left 2s ease-in-out;
+  /* margin-left: -300%; */
+}
+
+.carousel .slides .atual {
+  transition: all 2s ease-in-out;
+}
+
+.carousel .slides .bolls {
+  position: absolute;
+  width: 100%;
+  margin-top: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .slides .bolls .boll {
+  margin: 0 2px;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  box-shadow: 0 0 10px #333;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.carousel .slides .bolls .boll.active {
+  background: #334063;
+}
+
+main {
+  width: 100%;
+  min-height: 500px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .text {
+  width: 50%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+main .text .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .text .title img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+main .text p {
+  margin: 20px 0;
+}
+
+main .image {
+  width: 300px;
+  height: 300px;
+  /* background: #CBCBCB; */
+  box-shadow: 0 0 10px #333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: animation 5s ease-in-out infinite;
+}
+
+@keyframes animation {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: #334063;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+footer h1 {
+  font-size: 50px;
+  font-family: "Lobster Two", cursive;
+}
+
+footer .links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .links .footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer .links .footerContainer a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+footer .links .footerContainer a:hover {
+  color: #cbcbcb;
+  text-decoration: underline;
+}
+
+#back {
+  position: absolute;
+  width: 60px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

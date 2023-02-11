@@ -1,0 +1,267 @@
+main {
+  padding: 20px;
+  width: 100%;
+  min-height: 89.8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  margin: 50px 0;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+main .todasabas {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .abas {
+  width: 50%;
+  display: flex;
+  justify-items: stretch;
+  align-items: flex-start;
+}
+
+main .abas .aba {
+  padding: 5px;
+  width: 100px;
+  background: #2b354e;
+  border-right: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+main .abas .sel {
+  background: #334063;
+}
+
+main .abas:nth-child(2) {
+  width: auto;
+}
+
+main .container {
+  width: 95%;
+  height: 1000px;
+  background: #334063;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container .container-aba {
+  width: 95%;
+  height: 95%;
+  /* background-color: rgb(250, 165, 165); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .container #notas .cont {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container #notas .card {
+  width: 150px;
+  height: 80px;
+  margin: 30px 8px;
+  background-color: #d9d9d9;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 0 10px #333;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container #notas .card h2 {
+  color: #2068f3;
+}
+
+main .container #faltas .cont {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container #faltas .card {
+  width: 150px;
+  height: 80px;
+  margin: 30px 8px;
+  background-color: #d9d9d9;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 0 10px #333;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container #faltas .card h2 {
+  color: #2068f3;
+}
+
+#horarios {
+  width: 100%;
+}
+
+#horarios .cont {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#horarios .cont img {
+  width: 500px;
+}
+
+#horarios .cont a {
+  width: 150px;
+  height: 50px;
+  margin: 50px 0;
+  background-color: rgba(255, 22, 22, 0.667);
+  box-shadow: 0 0 10px #333;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: #fff;
+}
+
+main .container .container-aba .infos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+main .container .container-aba .infos p {
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+main .container .container-aba .infos p span {
+  font-weight: normal;
+}
+
+main .container .container-aba .infos .foto {
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 10px black;
+}
+
+main .container .container-aba .infos .foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+main .container .container-aba .infos .infoAluno {
+  color: #fff;
+  font-size: 25px;
+}
+
+main .container .container-aba .container-info-alunos {
+  width: 100%;
+  height: 500px;
+  padding: 50px 20px;
+  background-color: #d9d9d9;
+  box-shadow: 0 0 10px #333;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .container .container-info-alunos h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+main .container .container-info-alunos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main .container .container-info-alunos table td {
+  text-align: center;
+  padding: 6px;
+}
+
+main .container .container-info-alunos table th:nth-child(1) {
+  width: 10%;
+}
+
+main .container .container-info-alunos table th:nth-child(2) {
+  width: 15%;
+}
+
+main .container .container-info-alunos table td a {
+  background: #f83f3f;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #333;
+  color: #000;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+main .container .container-info-alunos table th,
+main .container .container-info-alunos table td {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+main .container .container-info-alunos table th:nth-child(5),
+main .container .container-info-alunos table td:nth-child(5) {
+  border-right: none;
+}
+
+#back {
+  margin: -550px 0 0 -560px;
+}
+
+#horarios.hidden,
+#aluno.hidden,
+#notas.hidden,
+#faltas.hidden {
+  display: none;
+}

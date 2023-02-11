@@ -1,0 +1,183 @@
+main {
+  width: 100%;
+  padding: 20px 0px;
+  display: block;
+}
+
+main h1 {
+  margin-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+main .visao-geral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .visao-geral h3 {
+  font-size: 30px;
+}
+
+main .visao-geral .image {
+  width: 500px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+
+main .visao-geral .image img {
+  width: 500px;
+  height: 250px;
+}
+
+main .visao-geral .text {
+  margin-right: 50px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main .funcionarios {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .funcionarios .cargo {
+  width: 100%;
+}
+
+main .funcionarios .func {
+  width: 80%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  width: 40%;
+  /* background-color: red; */
+}
+
+main .funcionarios .cargo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .funcionarios .cargo p {
+  margin: 0 5px;
+}
+
+.pipe {
+  width: 5%;
+  /* background-color: green; */
+}
+
+.grad {
+  width: 20%;
+  /* background-color: blue; */
+}
+
+main .funcionarios .cargo h3 {
+  font-size: 25px;
+}
+
+main .funcionarios .func img {
+  width: 50px;
+  height: 50px;
+  background: gray;
+  border-radius: 6px;
+}
+
+main .faixa {
+  height: 150px;
+  padding: 30px;
+  width: 100%;
+  background-color: #334063;
+
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .faixa h2 {
+  margin-bottom: 5px;
+}
+
+main .faixa a {
+  margin-top: 5px;
+  width: 200px;
+  height: 40px;
+  background: #3a62cb;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #333;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+main .faixa a:hover {
+  transform: translateY(-5px);
+}
+
+main .contato {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .contato .card {
+  width: 400px;
+  height: 150px;
+  background: #334063;
+  border-radius: 16px;
+  box-shadow: 0 0 10px #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contato .card .title {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .contato .card .title img {
+  width: 50px;
+  margin-right: 5px;
+}
+
+main .contato .card .title h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+main .contato .card a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+main .contato .card a:hover {
+  color: #346eff;
+  text-decoration: underline;
+}

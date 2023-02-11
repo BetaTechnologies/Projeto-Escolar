@@ -1,0 +1,184 @@
+main {
+  display: block;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+main h1 {
+  margin-left: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+main .anuncio {
+  width: 100%;
+  margin: 50px 0;
+}
+
+main .anuncio h2 {
+  margin-left: 30px;
+}
+
+main .anuncio table {
+  width: 100%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+main .anuncio table tr {
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+main .anuncio table tr:hover {
+  background-color: #346eff;
+  color: white;
+}
+
+main .anuncio table tr .data {
+  width: auto;
+  border-right: 1px solid #000;
+}
+
+main .anuncio table tr td {
+  width: 85%;
+  padding: 10px;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+main .contato {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .contato .card {
+  width: 500px;
+  height: 200px;
+  background: #334063;
+  border-radius: 16px;
+  box-shadow: 0 0 10px #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contato .card .title {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .contato .card .title img {
+  width: 50px;
+}
+
+main .contato .card .title h1 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+main .contato .card a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+main .contato .card a:hover {
+  color: #346eff;
+  text-decoration: underline;
+}
+
+main .titulo-evento {
+  width: 100%;
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main .apresentacao-evento {
+  margin: 80px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .apresentacao-evento .text {
+  width: 50%;
+  height: 100%;
+}
+
+.notic .apresentacao-evento {
+  width: 100%;
+}
+
+.notic .apresentacao-evento .text {
+  width: 100%;
+  height: 100%;
+}
+
+main .apresentacao-evento .image {
+  width: 500px;
+  height: 250px;
+  background: #d9d9d9;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #333;
+}
+
+main .apresentacao-evento .image img {
+  width: 500px;
+  height: 250px;
+}
+
+main .situacao-evento {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main .situacao-evento tr td {
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+main .cont {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .salvar {
+  position: absolute;
+  float: right;
+  width: 150px;
+  height: 50px;
+  margin-right: -50px;
+  background-color: #334063;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .salvar:hover {
+  width: 180px;
+}
+
+main .salvar img {
+  width: 20px;
+  margin-right: 8px;
+}

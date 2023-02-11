@@ -1,0 +1,132 @@
+body {
+  background: #CBCBCB;
+}
+
+main {
+  width: 100%;
+  padding: 50px;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main form {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main form .campos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main form .campos input {
+  margin: 20px 0;
+  width: 400px;
+  height: 45px;
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 10px #333;
+  outline: none;
+}
+
+main form .campos .inputBox {
+  margin: 20px 0;
+  width: 400px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #333;
+  display: flex;
+  align-items: center;
+}
+
+main form .campos .container .inputBox input {
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+main form .campos .container .inputBox img {
+  width: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+main form .campos .container {
+  width: 48%;
+  height: auto;
+  padding: 20px;
+  background: #334063;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main form .campos .container select {
+  margin: 20px 0;
+  width: 400px;
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 10px #333;
+  outline: none;
+}
+
+main form .campos .container textarea {
+  margin: 20px 0;
+  width: 400px;
+  height: 180px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #333;
+  outline: none;
+  resize: none;
+}
+
+main form .campos .container input[type='file'] {
+  background-color: #fff;
+  box-shadow: 0 0 10px #333;
+}
+
+main form .campos .container:nth-child(2) {
+  height: 300px;
+}
+
+main form input[type="submit"] {
+  position: absolute;
+  margin-top: -400px;
+  width: 130px;
+  padding: 8px;
+  align-self: flex-end;
+  background: #334063;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #333;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+}
+
+main form input[type="submit"]:hover {
+  transform: translateY(-5px);
+}
+
+#back {
+  margin: -590px 0 0 -555px;
+}
